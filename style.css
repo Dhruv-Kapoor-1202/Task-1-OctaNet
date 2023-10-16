@@ -8,14 +8,7 @@
 /* @media (min-width: 834px) {} */
 /* @media (min-width: 1440px) {} */
 
-
-
-
 /* --------------------------------------------- */
-
-
-
-
 
 /* Reset */
 
@@ -155,11 +148,7 @@ table {
   border-spacing: 0;
 }
 
-
-
 /* --------------------------------------------- */
-
-
 
 /* global */
 
@@ -180,7 +169,6 @@ table {
   --dark-text: rgb(43, 43, 43);
   --light-text: #484848;
   --white: #F5F5F5;
-
 
   --fs-10: 0.625rem;
   /* 10px */
@@ -271,54 +259,13 @@ strong {
   /* letter-spacing: 0.02em; */
 
   position: relative;
-
   cursor: pointer;
-
   transition: box-shadow 0.2s;
 }
 
 .btn:hover {
-  /* box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 
-	0px 8px 18px 0px rgba(0, 0, 0, 0.10),
-	0px 32px 32px 0px rgba(0, 0, 0, 0.09), 
-	0px 72px 43px 0px rgba(0, 0, 0, 0.05), 
-	0px 128px 51px 0px rgba(0, 0, 0, 0.01), 
-	0px 200px 56px 0px rgba(0, 0, 0, 0.00); */
-
-  /* box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 4px 8px 0px rgba(0, 0, 0, 0.14), 0px 14px 14px 0px rgba(0, 0, 0, 0.12), 0px 32px 19px 0px rgba(0, 0, 0, 0.07), 0px 56px 23px 0px rgba(0, 0, 0, 0.02), 0px 88px 25px 0px rgba(0, 0, 0, 0.00); */
-
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-  /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
-
-  /* background-color: var(--clr-mid); */
-
   box-shadow: 0px 0px 4px rgba(43, 43, 43, 0.5);
 }
-
-/* .btn::before {
-	content: "";
-	position: absolute;
-
-	height: 100%;
-	width: 100%;
-
-	top: 5px;
-	left: 0;
-
-
-	background-color: rgba(43, 43, 43, 0.5);
-	z-index: -1;
-
-	opacity: 0;
-	
-
-	transition: opacity 0.2s linear;
-	
-}
-
-.btn:hover::before {
-	opacity: 0.2;
-} */
 
 .btn:focus {
   background-color: var(--dark-text);
@@ -334,7 +281,6 @@ strong {
   border-left: 1px solid var(--black);
   border-right: 1px solid var(--black);
 }
-
 
 /* --------------------------------------------- */
 
@@ -378,7 +324,6 @@ strong {
   /* letter-spacing: ; */
 }
 
-
 /* moblie nav */
 
 .mobile-nav {
@@ -418,8 +363,6 @@ strong {
 
 /* end on mobile nav */
 
-
-
 @media (min-width: 640px) {
   .header {
     justify-content: center;
@@ -453,13 +396,11 @@ strong {
   .mobile-nav {
     display: none;
   }
-
 }
 
 @media (min-width: 834px) {
   .header {
     display: block;
-
   }
 
   .navbar {
@@ -467,7 +408,6 @@ strong {
     /* font-size: ; */
 
     padding: 0.25rem 1.5rem;
-
   }
 
   .nav_btns {
@@ -481,19 +421,15 @@ strong {
   .header_menu {
     gap: 1.75rem;
   }
-
-
 }
 
 @media (min-width: 1440px) {
   .navbar {
     padding: 0.25rem 2.5rem;
-
   }
 }
 
 /* --------------------------------------------- */
-
 
 /* hero */
 
@@ -528,15 +464,12 @@ strong {
 
 
 @media (min-width: 390px) {
-
   .section_heading {
     font-size: var(--fs-55);
   }
-
 }
 
 @media (min-width: 640px) {
-
   .hero {
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -572,12 +505,9 @@ strong {
   }
 }
 
-
 /* --------------------------------------------- */
 
-
 /* about */
-
 
 .about {
   text-align: left;
@@ -587,12 +517,10 @@ strong {
   align-items: center;
   gap: var(--fs-30);
   text-align: left;
-
 }
 
 .section {
   padding: var(--fs-60) var(--fs-40);
-
 }
 
 .about_para {
@@ -600,19 +528,12 @@ strong {
   line-height: 180.523%;
   font-size: var(--fs-12);
   color: var(--light-text);
-
-
   font-weight: 300;
 
   max-width: 1520px;
 }
 
-
-
-@media (min-width: 390px) {}
-
 @media (min-width: 640px) {
-
   .section {
     padding: var(--fs-60) var(--fs-50);
   }
@@ -623,30 +544,19 @@ strong {
   }
 }
 
-@media (min-width: 834px) {}
-
 @media (min-width: 1440px) {
   .about h2 {
     margin-bottom: var(--fs-30);
   }
 
-  /* .about {
-		gap: var(--fs-60);
-		
-	} */
   .section {
     padding: var(--fs-100) var(--fs-80);
   }
 }
 
-
-
-
 /* --------------------------------------------- */
 
-
 /* Our Team */
-
 
 .team {
   text-align: center;
@@ -655,9 +565,6 @@ strong {
   justify-content: center;
   align-items: center;
   gap: var(--fs-30);
-
-  /* padding-top: 7rem;
-	padding-bottom: 7rem; */
 }
 
 .team_cards {
@@ -668,8 +575,6 @@ strong {
 
   justify-content: center;
   align-items: center;
-
-
 }
 
 .card {
@@ -690,23 +595,18 @@ strong {
   color: var(--dark-text);
   font-weight: 800;
   line-height: 80%;
-
 }
 
 .card_para {
   font-size: var(--fs-20);
   color: var(--light-text);
-  /* line-height: 180%;   80%?????  */
 }
 
 .card img {
   border: 1px solid var(--black);
   width: 100%;
-  /* max-width: 300px; */
   height: 250px;
-  /*    */
   background-color: var(--clr-mid);
-
 }
 
 .team_name {
@@ -716,7 +616,6 @@ strong {
   align-items: flex-start;
   gap: var(--fs-16);
 }
-
 
 @media (min-width: 390px) {
   .card {
@@ -733,8 +632,6 @@ strong {
   .card img {
     width: 250px;
   }
-
-
 }
 
 @media (min-width: 834px) {
@@ -754,7 +651,6 @@ strong {
     flex-direction: column;
     max-width: 350px;
   }
-
 }
 
 @media (min-width: 1440px) {
@@ -782,13 +678,9 @@ strong {
   }
 }
 
-
-
 /* --------------------------------------------- */
 
-
 /* Contact */
-
 
 .contact {
   text-align: center;
@@ -797,9 +689,6 @@ strong {
   justify-content: center;
   align-items: center;
   gap: var(--fs-30);
-
-  /* padding-top: 7rem;
-	padding-bottom: 7rem; */
 }
 
 .contact_box {
@@ -816,14 +705,10 @@ strong {
 
   display: flex;
   flex-direction: column;
-  /* align-items: flex-start;
-    justify-content: flex-start; */
   text-align: left;
 
   gap: var(--fs-60);
-
   padding: var(--fs-60) var(--fs-20);
-
 }
 
 .contact_heading {
@@ -853,14 +738,8 @@ strong {
   gap: var(--fs-20);
   text-align: left;
 
-
   padding: var(--fs-60) var(--fs-20);
-
 }
-
-/* .input-group {
-    position: relative;
-} */
 
 input,
 textarea {
@@ -877,7 +756,6 @@ textarea {
   font-family: var(--ff);
   resize: none;
   line-height: 180.523%;
-
 }
 
 input:focus,
@@ -886,15 +764,6 @@ textarea:focus {
 }
 
 label {
-  /* height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: var(--light-text);
-    padding: var(--fs-16) var(--fs-12);
-    cursor: text;
-    font-size: var(--fs-12);
-    transition: 0.2s; */
   display: none;
 }
 
@@ -902,8 +771,6 @@ label {
   padding: 1em;
 
 }
-
-
 
 @media (min-width: 390px) {
   .contact_info {
@@ -922,8 +789,6 @@ label {
     padding: var(--fs-60) var(--fs-20);
     /* padding: var(--fs-48) var(--fs-20) var(--fs-60); */
   }
-
-
 }
 
 @media (min-width: 640px) {
@@ -938,7 +803,6 @@ label {
   .contact_box {
     flex-direction: row;
     max-width: 1520px;
-
   }
 
   .contact_info {
@@ -949,7 +813,6 @@ label {
     margin-top: var(--fs-10);
   }
 
-
   .contact_form {
     flex-grow: 1;
     padding: var(--fs-48) var(--fs-20) var(--fs-60);
@@ -959,11 +822,9 @@ label {
   textarea:focus {
     font-weight: 300;
   }
-
 }
 
 @media (min-width: 1440px) {
-
   .contact_heading {
     margin-top: var(--fs-20);
   }
@@ -976,26 +837,6 @@ label {
     padding: var(--fs-60);
   }
 }
-
-
-
-
-
-
-
-/* NOTE:
-	stuff thats left at this point
-		
-		- Styling the <strong> tag
-		- Contact Us
-		- The underline under The button on hover
-		- Button Hover and focus stuff
-		
-*/
-
-
-
-
 
 /* --------------------------------------------- */
 
@@ -1017,9 +858,7 @@ label {
   user-select: none;
 }
 
-
 /* --------------------------------------------- */
-
 
 /* Scrollbar */
 
