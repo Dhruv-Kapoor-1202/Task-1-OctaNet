@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap"
+      rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>OctaNet Task 1</title>
+  </head>
+
+  <body>
+
+    <!-- Header -->
+
+    <header class="header container">
+      <nav class="navbar">
+        <ul class="header_menu">
+          <li>
+            <a class="header_link" href="#home">Home</a>
+          </li>
+          <li>
+            <a class="header_link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="header_link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="nav_btns">
+          <a href="#">Login</a>
+          <button class="btn">Button</button>
+        </div>
+
+
+        <!-- hamburger -->
+        <button title="bars" class="hamburger_btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+              clip-rule="evenodd" />
+          </svg>
+        </button>
+      </nav>
+
+    </header>
+
+
+    <!-- mobile nav -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav_menu">
+          <li>
+            <a class="mobile-nav_link" href="#home">Home</a>
+          </li>
+          <li>
+            <a class="mobile-nav_link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="mobile-nav_link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <!-- main -->
+
+    <main>
+
+      <!-- Hero -->
+
+      <section class="container hero" id="home">
+        <h1 class="section_heading">LANDING<br>PAGE</h1>
+        <p class="hero_para">This is a landing page<br>OctaNet Task 1</p>
+      </section>
+
+      <!-- About -->
+
+      <section class="container about section" id="about">
+        <h2 class="section_heading">ABOUT</h2>
+        <p class="about_para">
+          This is the <strong>about section</strong>. This sections tells us about the website and the product or the
+          service its promoting. Lorem ipsum dolor, sit amet consectetur adipisicing elit
+          <strong> Accusamus nam</strong> ipsam fugiat a sequi exercitat delectus provident expedita sapiente quia.
+          Lorem, ipsum dolor sit amet consectetur <strong>adipisicing elit</strong>. Fugiat, quas? Maxime iste eos
+          ipsum. Minus cum excepturi expedita beatae <strong>tempora!</strong>
+        </p>
+        <p class="about_para">
+          This <strong>second paragraph</strong> also is to describe the stuff about the website and stuff. <strong>Some
+            more</strong> lorem epsom coming your way. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <strong>Dolore porro esse inventore soluta, alias natus, magni</strong> fugit pariatur voluptatibus maiores
+          ullam excepturi accusantium voluptatum fugiat laudantium nostrum necessitatibus? Libero, in!
+        </p>
+      </section>
+
+      <!-- Projects -->
+
+      <section class="container team section">
+        <h2 class="section_heading">PROJECTS</h2>
+        <div class="team_cards">
+          <div class="card">
+            <img src="" alt="">
+            <div class="team_name">
+              <h3 class="card_heading">NAME</h3>
+              <p class="card_para">Description</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="" alt="">
+            <div class="team_name">
+              <h3 class="card_heading">NAME</h3>
+              <p class="card_para">Description</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+
+      <section class="container contact section" id="contact">
+        <h2 class="section_heading">CONTACT</h2>
+        <div class="contact_box">
+          <div class="contact_info">
+            <section class="contact_info-section">
+              <h3 class="contact_heading">EMAIL</h3>
+              <p class="contact_para">
+                dhruvkapoor1202@gmail.com<br>
+                dhruv1690.be21@chitkara.edu.in
+              </p>
+            </section>
+            <section class="contact_info-section">
+              <h3 class="contact_heading">PHONE</h3>
+              <p class="contact_para">6382-476-404</p>
+            </section>
+            <section class="contact_info-section">
+              <h3 class="contact_heading">SOCIALS</h3>
+              <p class="contact_para">something</p>
+            </section>
+          </div>
+
+          <form action="" class="contact_form">
+            <div class="input-group">
+              <input type="text" id="name" name="name" placeholder="Enter your name">
+              <label for="name">Enter your Name</label>
+            </div>
+            <div class="input-group">
+              <input type="email" id="email" name="email" placeholder="Enter a valid email">
+              <label for="email">Enter a valid email</label>
+            </div>
+            <div class="input-group">
+              <textarea id="form_message" name="form_message" rows="8" placeholder="Enter your message"></textarea>
+              <label for="form_message">Enter your message</label>
+            </div>
+            <!-- <input type="submit" class="btn" value="Register"> -->
+            <button class="btn register_btn" type="submit">Button</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- footer -->
+
+    <footer class="container footer">
+      <h3 class="footer_title">
+        ~ Dhruv Kapoor ~
+      </h3>
+    </footer>
+
+
+
+
+    <script type="module" src="./main.js"></script>
+  </body>
+
+</html>
